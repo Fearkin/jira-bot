@@ -1,5 +1,5 @@
 .ruff_cache
 venv
-redis_data/redis_dump.rdb
+redis_data/*
 .env.prod
 __pycache__
