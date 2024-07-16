@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "jira-bot"
+version = "0.1.0"
+description = ""
+authors = ["Fearkin <fearkin@protonmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+jira = {extras = ["cli"], version = "^3.8.0"}
+aiogram = "^3.6.0"
+dishka = "^1.2.0"
+structlog = "^24.2.0"
+colorama = "^0.4.6"
+redis = "^5.0.4"
+cachetools = "^5.3.3"
+pydantic = "^2.7.3"
+pydantic-settings = "^2.3.1"
+email-validator = "^2.1.1"
+
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.4.4"
+bandit = "^1.7.8"
+py-spy = "^0.3.14"
+vulture = "^2.11"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

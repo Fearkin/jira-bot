@@ -1,0 +1,5 @@
+.ruff_cache
+venv
+redis_data/redis_dump.rdb
+.env.prod
+__pycache__
